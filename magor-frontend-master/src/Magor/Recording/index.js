@@ -33,6 +33,7 @@ const Recording = ({ data, query: _query, id, transcriptId }) => {
     const EDIT_PAGES = {
         EDIT_VIDEO: 'Edit Video',
         EDIT_TRANSCRIPT: 'Edit Transcript',
+        PUBLISH: 'Publish',
     }
 
     let defaultTranscript = recording._transcripts.find(
@@ -116,6 +117,9 @@ const Recording = ({ data, query: _query, id, transcriptId }) => {
         const history = useHistory()
         const role = localStorage.getItem('role')
         const handleEditClick = (val) => {
+            if (val === EDIT_PAGES.PUBLISH) {
+                return false
+            }
             setCurrentPage(val)
             if (val === EDIT_PAGES.EDIT_VIDEO) {
                 history.push(`/studio/${id}`)
@@ -130,6 +134,7 @@ const Recording = ({ data, query: _query, id, transcriptId }) => {
                         'Edit',
                         EDIT_PAGES.EDIT_VIDEO,
                         EDIT_PAGES.EDIT_TRANSCRIPT,
+                        EDIT_PAGES.PUBLISH,
                     ]}
                     setSelected={handleEditClick}
                 />

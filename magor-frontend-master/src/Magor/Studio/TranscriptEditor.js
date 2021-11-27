@@ -6,6 +6,7 @@ import moment from 'moment'
 import './TranscriptEditor.css'
 import { useHistory, Link, useParams } from 'react-router-dom'
 import { DropDown, HorizontalLayout } from '../Components'
+import { saveAs } from 'file-saver'
 
 const TranscriptButton = ({ id }) => {
     const history = useHistory()
@@ -48,6 +49,13 @@ const TranscriptEditor = ({
         })
     }
 
+    const handleDownload = () => {
+        saveAs(
+            `${process.env.REACT_APP_STUDIO_URL}/static/transcripts/${fileName}`,
+            fileName
+        )
+    }
+
     const handleSave = async () => {
         const r = window.confirm('Are you sure you want to save?')
         if (!r) {
@@ -71,13 +79,12 @@ const TranscriptEditor = ({
             <HorizontalLayout className="align-items-center">
                 <TranscriptButton id={id} />
 
-                <a
-                    download
-                    href="http://localhost:3002/static/transcripts/33dde455-26bf-4215-bd26-a00edf915aca.xml"
+                <button
+                    onClick={handleDownload}
                     className="btn btn-warning text-light mx-2"
                 >
                     Download
-                </a>
+                </button>
                 <button onClick={handleSave} className="btn btn-success">
                     Save
                 </button>

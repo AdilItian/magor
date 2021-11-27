@@ -1,0 +1,392 @@
+#AVPlayerElement {
+    display: none;
+    margin: 0;
+    width: 100%;
+    max-height: 80%;
+    background: #f1f3f4;
+    box-sizing: border-box;
+}
+
+#AVPlayerElement.video {
+    display: block;
+    border-radius: 27px 27px 0 0;
+    border: 3px solid #f1f3f4;
+}
+
+.isLoading {
+    content: '';
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5) url('/loading.svg') center no-repeat;
+    background-size: 100px 100px;
+    border-radius: 25px 25px 0 0;
+}
+
+.isLoading[is-loading='yes'] {
+    display: block;
+}
+
+#mediaPlayerContainer {
+    width: 100%;
+    background: #f1f3f4;
+    border-radius: 27px;
+    position: relative;
+}
+
+#mediaPlayerContainer.video {
+    border-radius: 0 0 27px 27px;
+}
+
+#imageAndSoundCaptionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    transition: all 0.1s ease-in-out;
+    padding: 10px 10px 0 10px;
+    font-size: 18px;
+}
+
+#imageAndSoundCaptionContainer.hidden {
+    display: none;
+}
+
+#currentCaptionContainer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    transition: all 0.1s ease-in-out;
+    padding: 10px 10px 0 10px;
+    min-height: 40px;
+    font-size: 18px;
+}
+
+#currentCaptionContainer.hidden {
+    display: none;
+}
+
+#currentCaptionContainer>#mediaPlayerCCContainer {
+    flex: 1;
+    padding: 0 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+#mediaPlayerCCContainer>label:first-child,
+#mediaPlayerCCContainer>label:last-child {
+    opacity: 0.5;
+}
+
+#mediaPlayer {
+    width: 100%;
+    height: 54px;
+    display: flex;
+}
+
+#mediaPlayerMatches {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 10px;
+}
+
+#mediaPlayerMatches>label {
+    font-size: 12px;
+    margin-bottom: -9px;
+}
+
+#mediaPlayerNextPrevMatch {
+    display: flex;
+}
+
+#mediaPlayerNextPrevMatch .mediaPlayerButton {
+    height: 25px;
+    width: 25px;
+}
+
+.mediaPlayerButtonContainer {
+    padding: 10px 0;
+}
+
+.mediaPlayerButtonContainer:first-of-type {
+    padding-left: 10px;
+}
+
+.mediaPlayerButtonContainer:nth-of-type(3) {
+    padding-right: 10px;
+}
+
+.mediaPlayerButtonContainer:hover>div {
+    background-color: #e6e7e9;
+    cursor: pointer;
+}
+
+.mediaPlayerButton {
+    width: 34px;
+    height: 34px;
+    border-radius: 17px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
+    transition: all 0.2s cubic-bezier(0.55, 0, 0.43, 0.9);
+}
+
+#mediaPlayerPlay {
+    background-image: url(/play.svg);
+}
+
+#mediaPlayerPlay.pause {
+    background-image: url(/pause.svg);
+}
+
+#mediaPlayerCC {
+    background-image: url(/cc.svg);
+}
+
+#mediaPlayerCC.hidden {
+    background-image: url(/cc_hidden.svg);
+}
+
+#mediaPlayerFullscreen {
+    background-image: url(/fullscreen.svg);
+}
+
+:fullscreen #mediaPlayerFullscreen {
+    background-image: url(/fullscreen_exit.svg);
+}
+
+#mediaPlayerNextMatch {
+    background-image: url(/next.svg);
+}
+
+#mediaPlayerPrevMatch {
+    background-image: url(/prev.svg);
+}
+
+#mediaPlayerTimestamp {
+    font-size: 14px;
+    margin: 10px 0;
+    padding: 8px 0;
+}
+
+#mediaPlayerProgressBarContainer {
+    flex: 1;
+    width: 0;
+    transition: all 0.4s cubic-bezier(0.55, 0, 0.43, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px 15px;
+}
+
+#mediaPlayerProgressBar {
+    height: 4px;
+    border-radius: 4px;
+    width: 100%;
+    background: #545456;
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow-y: visible;
+}
+
+#mediaPlayerProgressBarFilled {
+    height: 4px;
+    border-radius: 4px;
+    width: 0;
+    background: #545456;
+}
+
+#mediaPlayerProgressBarSeek {
+    position: absolute;
+    margin-left: -5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background: black;
+    z-index: 10000;
+    opacity: 1;
+    transition: opacity 0.2s cubic-bezier(0.55, 0, 0.43, 0.9);
+}
+
+#mediaPlayerProgressBarContainer:hover {
+    cursor: pointer;
+}
+
+#mediaPlayerProgressBarContainer:hover #mediaPlayerProgressBarSeek {
+    opacity: 1;
+}
+
+#mediaPlayerProgressBar {
+    height: 4px;
+    background: #c1c2c4;
+    border-radius: 4px;
+    width: 100%;
+}
+
+#mediaPlayerVolumeContainer {
+    padding: 10px 10px 10px 0;
+}
+
+#mediaPlayerVolume {
+    border-radius: 17px;
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden;
+    transition: all 0.4s cubic-bezier(0.55, 0, 0.43, 0.9);
+}
+
+#mediaPlayerVolumeIcon {
+    width: 34px;
+    height: 34px;
+    background-image: url(/volume.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
+}
+
+#mediaPlayerVolumeIcon.muted {
+    background-image: url(/mute.svg);
+}
+
+#mediaPlayerVolumeBarContainer {
+    width: 0;
+    height: 34px;
+    transition: all 0.4s cubic-bezier(0.55, 0, 0.43, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 0;
+}
+
+#mediaPlayerVolumeBar {
+    height: 4px;
+    border-radius: 4px;
+    width: 100%;
+    background: #c1c2c4;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#mediaPlayerVolumeBarFilled {
+    height: 4px;
+    border-radius: 4px;
+    width: 0;
+    background: #545456;
+}
+
+#mediaPlayerVolumeBarSeek {
+    width: 10px;
+    height: 10px;
+    margin-left: -5px;
+    left: 0;
+    border-radius: 10px;
+    background: black;
+    opacity: 1;
+    transition: opacity 0.2s cubic-bezier(0.55, 0, 0.43, 0.9);
+}
+
+#mediaPlayerVolumeContainer:hover #mediaPlayerVolumeBarSeek {
+    opacity: 1;
+}
+
+#mediaPlayerVolumeContainer:hover>div {
+    background-color: #e6e7e9;
+    cursor: pointer;
+}
+
+#mediaPlayerVolumeContainer:hover #mediaPlayerVolumeBarContainer {
+    width: 75px;
+    padding-left: 15px;
+}
+
+.mediaHighlight {
+    background: #1faeff;
+    height: 20px;
+    min-width: 5px;
+    position: absolute;
+    z-index: 1;
+}
+
+.mediaHighlight::after {
+    content: '';
+    display: none;
+    position: absolute;
+    width: 1px;
+    height: 50px;
+    background: black;
+    left: calc(50% - 1px);
+}
+
+.mediaHighlight::before {
+    content: attr(data-tag);
+    display: none;
+    position: absolute;
+    padding: 5px 10px;
+    border-radius: 15px;
+    align-items: center;
+    background: black;
+    font-size: 14px;
+    color: white;
+    top: 50px;
+    margin-left: 5px;
+    transform: translateX(-50%);
+}
+
+.mediaHighlight:hover::after,
+.mediaHighlight:hover::before {
+    display: flex;
+}
+
+#AVPlayerElement.video:hover::after {
+    content: 'fullscreen';
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: #fff;
+    color: #000;
+}
+
+#AVFileContainer {
+    width: 100%;
+}
+
+.recordingVerticalLayout.video #AVFileContainer {
+    position: fixed;
+    left: 0;
+    top: 75px;
+    width: 50%;
+    height: calc(100vh - 75px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.recordingVerticalLayout.video #AVFileContainer:fullscreen {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+}
+
+#AVFileContainer:fullscreen #AVPlayerElement.video {
+    margin-left: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+}
+
+#AVFileContainer:fullscreen #mediaPlayerContainer.video {
+    margin-left: 0;
+    border-radius: 0;
+    filter: invert();
+}

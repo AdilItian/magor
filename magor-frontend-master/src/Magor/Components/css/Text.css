@@ -1,0 +1,96 @@
+.font {
+    font-family: 'Roboto';
+    font-weight: normal;
+}
+
+.titleText {
+    font-size: 96px;
+    color: #1faeff;
+    margin: 20px 0;
+}
+
+.titleText.small {
+    font-size: 32px;
+    color: #1faeff;
+    margin: 4px 10px;
+}
+
+.titleText.thin {
+    font-weight: normal;
+}
+
+.titleText span {
+    margin-right: 7px;
+}
+
+.paraText {
+    font-size: 18px;
+    color: #000;
+}
+
+.blockLink {
+    border: 1px solid #ccc;
+    border-radius: 10;
+    width: 75%;
+    margin: 10px 0;
+    padding: 10px 20px 20px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+.tag {
+    box-sizing: border-box;
+    padding: 2px 8px;
+    margin: 2px;
+    border-radius: 10px;
+    background: #f1f3f4;
+    color: black;
+    font-size: 16px;
+}
+
+.tag:hover {
+    background: #d1d2d4;
+}
+
+.tag.highlighted {
+    border-radius: 30px;
+}
+
+.tag.highlighted:hover {
+    background: #ff0;
+}
+
+.tag.action {
+    cursor: pointer;
+}
+
+.tag.showCross {
+    padding-right: 25px;
+    background-image: url(/close.svg);
+    background-size: 13px 13px;
+    background-position: calc(100% - 7px) center;
+    background-repeat: no-repeat;
+}
+
+.titleText .highlighted {
+    background: transparent;
+    padding: 3px 7px;
+    border: 2px solid #1faeff;
+}
+
+p .highlighted {
+    padding: 2px 7px;
+    border-radius: 5px;
+}
+
+p span {
+    margin-right: 5px;
+}
+
+.highlighted {
+    display: inline;
+    background: #ff0;
+    padding: 4px 12px;
+    border-radius: 10px;
+}

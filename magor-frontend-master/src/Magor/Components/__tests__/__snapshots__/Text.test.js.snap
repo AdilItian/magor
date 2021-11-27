@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlockLink snapshot tests 1`] = `
+<a
+  className=""
+  href="#"
+>
+  <div>
+    This is a BlockLink
+  </div>
+</a>
+`;
+
+exports[`BlockLink snapshot tests 2`] = `
+<a
+  className=""
+  href="#"
+  style={
+    Object {
+      "background": "blue",
+    }
+  }
+>
+  <div>
+    This is a BlockLink with blue background
+  </div>
+</a>
+`;
+
+exports[`Para snapshot tests 1`] = `
+<p
+  className="font customClass"
+  style={
+    Object {
+      "fontWeight": "bold",
+    }
+  }
+>
+  This is a paragraph.
+</p>
+`;
+
+exports[`Para snapshot tests 2`] = `
+<p
+  className="font customClass"
+  query="random query"
+  style={
+    Object {
+      "fontWeight": "bold",
+    }
+  }
+  text="This is a paragraph."
+>
+  This 
+  is 
+  a 
+  paragraph. 
+</p>
+`;
+
+exports[`Para snapshot tests 3`] = `
+<p
+  className="font customClass"
+  query="mathing query paragraph"
+  style={
+    Object {
+      "fontWeight": "bold",
+    }
+  }
+  text="This is a paragraph."
+>
+  This 
+  is 
+  a 
+  <span
+    className="highlighted"
+  >
+    paragraph.
+  </span>
+</p>
+`;
+
+exports[`Tag snapshot tests 1`] = `
+<span
+  className="font tag"
+>
+  tag
+</span>
+`;
+
+exports[`Tag snapshot tests 2`] = `
+<span
+  className="font tag showCross"
+>
+  tag
+</span>
+`;
+
+exports[`Tag snapshot tests 3`] = `
+<span
+  className="font tag highlighted"
+>
+  tag
+</span>
+`;
+
+exports[`Title snapshot tests 1`] = `
+<h1
+  className="titleText"
+>
+  this is a title
+</h1>
+`;
+
+exports[`Title snapshot tests 2`] = `
+<h1
+  className="titleText small"
+>
+  this is a title
+</h1>
+`;
+
+exports[`Title snapshot tests 3`] = `
+<h1
+  className="titleText thin"
+>
+  this is a title
+</h1>
+`;
+
+exports[`Title snapshot tests 4`] = `
+<h1
+  className="titleText"
+>
+  this 
+  is 
+  a 
+  title 
+</h1>
+`;
+
+exports[`Title snapshot tests 5`] = `
+<h1
+  className="titleText"
+>
+  this 
+  is 
+  a 
+  <span
+    className="highlighted"
+  >
+    title
+  </span>
+</h1>
+`;

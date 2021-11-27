@@ -1,0 +1,66 @@
+.statistics__keyValue {
+    display: flex;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.statistics__minMaxAv__bar {
+    background: #1faeff;
+    border-radius: 15px;
+    position: relative;
+    width: 300px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.statistics__minMaxAv__average {
+    position: absolute;
+    background: #fff;
+    height: 30px;
+    width: 5px;
+}
+
+.statistics__minMaxAv__dataLabel {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+}
+
+.statistics__minMaxAv__dataLabel span {
+    text-transform: none;
+    font-size: 25px;
+    color: #1faeff;
+}
+
+.statistics__minMaxAv__range::before {
+    content: attr('min');
+    position: absolute;
+    top: 30px;
+    left: 0;
+    display: block;
+}
+
+.statistics__field {
+    font-size: 20px;
+    margin-right: 10px;
+    width: 200px;
+}
+
+.statistics__field::after {
+    content: ': ';
+    position: relative;
+}
+
+.statistics__value {
+    color: #1faeff;
+    font-size: 25px;
+}
+
+.statistics__tag {
+    color: inherit;
+    margin: 0 3px;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 2px;
+    font-size: 22px;
+}

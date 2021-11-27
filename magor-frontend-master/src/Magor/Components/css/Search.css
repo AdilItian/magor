@@ -1,0 +1,77 @@
+.searchBar {
+    height: 67px;
+    padding: 10px 30px;
+    font-size: 40px;
+    border-radius: 8px;
+    border: 1px solid #808080;
+    width: 50vw;
+    min-width: 300px;
+}
+
+.searchBar.small {
+    height: 47px;
+    padding: 20px;
+    font-size: 28px;
+    border-radius: 6px;
+    border: 1px solid #808080;
+    width: 50vw;
+    min-width: 300px;
+}
+
+.searchButton {
+    height: 67px;
+    width: 67px;
+    border: none;
+    border-radius: 0 8px 8px 0;
+    background-color: #1faeff;
+    background-image: url(/search.svg);
+    background-position: center;
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    color: white;
+    right: 0;
+    position: absolute;
+    cursor: pointer;
+}
+
+.searchButton.small {
+    height: 47px;
+    width: 47px;
+    background-size: 32px;
+}
+
+.searchBarContainer {
+    position: relative;
+}
+
+.searchBarContainer ul {
+    display: none;
+    position: absolute;
+    background: #fff;
+    top: 100%;
+    margin: 0;
+    border: 3px solid #1faeff;
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+    list-style: none;
+    padding: 0;
+    max-height: 165px;
+    overflow-y: scroll;
+}
+
+.searchBar:focus+ul,
+.searchBarContainer ul:hover {
+    display: block;
+}
+
+.searchBarContainer li {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.searchBarContainer li:hover {
+    background: #1faeff;
+    color: #fff;
+    font-weight: bold;
+    ;
+}

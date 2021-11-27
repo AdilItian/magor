@@ -1,0 +1,7 @@
+{
+    "commands": [
+        "yarn",
+        "yarn test --silent --watchAll=false",
+        "yarn build"
+    ]
+}

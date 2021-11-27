@@ -1,0 +1,190 @@
+div[data-role='speechSegment'],
+div[data-role='imageCaption'],
+div[data-role='soundCaption'] {
+    display: block;
+    font-size: 18px;
+    background: #fafafa;
+    line-height: 1.6;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+div[data-role='speechSegment'] div {
+    display: inline;
+}
+
+div[data-role='speechSegment'] p,
+div[data-role='imageCaption'] p,
+div[data-role='soundCaption'] p {
+    margin-bottom: 0;
+}
+
+div[data-role='speechSegment'].hasEmotion div {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.emotion label {
+    text-decoration: none !important;
+}
+
+.emoji {
+    margin-left: 5px;
+}
+
+div[data-role='speechSegment']:hover span,
+div[data-role='imageCaption']:hover span,
+div[data-role='soundCaption']:hover span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+span[data-role='speechSubSegment'] {
+    transition: all 0.2s ease;
+}
+
+label.bold {
+    background: #ddd;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.speaker {
+    font-weight: bold;
+    background: black;
+    color: white;
+    padding: 2px 7px;
+    margin-right: 5px;
+    border-radius: 12px;
+}
+
+.speaker.speaker_imageCaption,
+.speaker.speaker_soundCaption {
+    border-radius: 5px;
+    color: transparent;
+    background-color: #f00;
+    background-image: url(/image.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.speaker.speaker_soundCaption {
+    background-image: url(/sound.svg);
+}
+
+div[data-role='speechSegment']:hover .speaker {
+    text-decoration: none;
+}
+
+.ops {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.selectTranscript .dropDown {
+    min-width: 200px;
+}
+
+.ops label {
+    margin-right: 10px;
+}
+
+.ops input {
+    margin-right: 5px;
+}
+
+.selectTranscript .selectTranscriptDropdownContainer {
+    position: absolute;
+}
+
+#TranscriptRenderer {
+    position: relative;
+    border-top: 3px solid #1faeff;
+    flex: 1;
+    overflow: scroll;
+    width: 100%;
+}
+
+#TranscriptTab {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#TranscriptTab > label {
+    padding: 5px 10px;
+    background: #1faeff;
+    color: #fff;
+}
+
+#TranscriptTab > button {
+    border: 1px solid #ddd;
+    font-size: 14px;
+    background: #fff;
+    margin: 0 3px;
+    padding: 3px 8px;
+}
+
+#TranscriptTab .badge {
+    display: inline-flex;
+    background: #fff;
+    border-radius: 15px;
+    height: 25px;
+    width: 25px;
+    font-size: 14px;
+    margin-left: 5px;
+    color: #1faeff;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+
+#transcript.noTx [data-role='speechSegment'],
+#transcript.noImgCap [data-role='imageCaption'],
+#transcript.noSndCap [data-role='soundCaption'] {
+    display: none;
+}
+
+#transcript p:first-child {
+    margin-top: 0;
+}
+
+.speaker.highlight {
+    border: 3px solid black;
+    background: yellow;
+    color: #000;
+}
+
+.button.autoScroll {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+    border-radius: 15px;
+}
+
+.button.autoScroll.visible {
+    display: block;
+}
+
+.ops.selectTranscript {
+    position: relative;
+}
+
+.ops.selectTranscript:nth-of-type(1) {
+    z-index: 3;
+}
+
+.ops.selectTranscript:nth-of-type(2) {
+    z-index: 2;
+}
+
+.ops.selectTranscript:nth-of-type(3) {
+    z-index: 1;
+}

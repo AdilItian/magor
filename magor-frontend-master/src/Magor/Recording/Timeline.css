@@ -1,0 +1,144 @@
+.main-wrapper {
+    overflow-x: auto;
+    overflow-y: visible;
+    border: 1px solid lightgrey;
+    border-top: none;
+    border-left-width: 0.225rem;
+    padding-top: 2rem;
+    position: relative;
+}
+
+.main-wrapper::-webkit-scrollbar {
+    height: 5px;
+  }
+  
+  /* Track */
+  .main-wrapper::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  .main-wrapper::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .main-wrapper::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+.main-wrapper:before {
+    content: '';
+    position: absolute;
+    top: 2rem;
+    height: 1px;
+    left: 0;
+    right: 0;
+    background-color: lightgray;
+}
+
+.timeline-container {
+    height: 10rem;
+    position: relative;
+    transition: all 1s ease;
+}
+.timeline-container .time-contents {
+    display: flex;
+    position: absolute;
+    top: 2rem;
+    left: 20rem;
+}
+
+
+.time-contents p {
+    display: inline-block;
+    white-space: nowrap;
+    color: white;
+    background-color: darkslategrey;
+    padding: 0.125rem 0.25rem;
+    border-right: 2px solid white;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+.timeline-container:before {
+    content: '';
+    position: absolute;
+    top: 5rem;
+    height: 1px;
+    left: 0;
+    right: 0;
+    background-color: lightgray;
+}
+
+.time-labels {
+    display: flex;
+    position: absolute;
+    top: -1.5rem;
+    left: 20rem;
+}
+.time-labels label {
+    width: 15rem;
+    border-right: 1px solid lightgray;
+    padding-left: 1rem;
+    border-bottom: 1px solid lightgray;
+    position: relative;
+}
+.time-labels label:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    top: 6.5rem;
+    height: 1px;
+    background-color: lightgray;
+}
+
+.time-labels label:last-child {
+    border-right: none;
+}
+
+
+.indicator-handler {
+    position: absolute;
+    top: -2rem;
+    bottom: 1rem;
+    left: 20rem;
+    z-index: 4;
+}
+
+
+.indicator {
+    position: relative;
+    width: 2px;
+    cursor: pointer;
+    min-height: 11rem;
+    background-color: darkblue;
+}
+.indicator:before {
+    position: absolute;
+    content: '';
+    width: 1rem;
+    height: 1rem;
+    top: 0;
+    left: -0.325rem;
+    border-radius: 100%;
+    background-color: darkblue;
+}
+
+.icon-content {
+    background-color: darkslategrey;
+    height: 2rem;
+    width:3rem;
+    left: 3rem;
+    top: 2rem;
+    position: absolute;
+}
+
+.icon-music {
+    position: absolute;
+    left: 3rem;
+    bottom: 1rem;
+}

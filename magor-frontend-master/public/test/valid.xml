@@ -1,0 +1,25 @@
+<AudioDoc name="coronavirus-oil-price-collapses-as-demand-falls-further-bbc-news">
+	<ImageCaptionList>
+		<ImageSegment stime="8.19" dur="13.76">oil graph</ImageSegment>
+	</ImageCaptionList>
+	
+	<SoundCaptionList>
+		<SoundSegment stime="429.52" dur="4.55">Chanting USA</SoundSegment>
+	</SoundCaptionList>
+
+	<SegmentList>
+		<SpeechSegment channel="1" stime="0.03" dur="6.87" score="0.98" lang="eng" gender="1" band="S" spkrid="BBC-host">
+			<Word stime="0.03" dur="0.36" score="0.7">well</Word>
+			<Word stime="0.39" dur="0.12" score="1.0">in</Word>
+			<Word stime="0.51" dur="0.09" score="1.0">the</Word>
+			<Word stime="0.60" dur="0.51" score="1.0">usa</Word>
+		</SpeechSegment>
+		<SpeechSegment channel="1" stime="6.90" dur="9.10" score="1.00" lang="eng" gender="1" band="S" spkrid="BBC-host">
+			<Word stime="6.90" dur="0.33" score="1.0">the</Word>
+			<Word stime="7.23" dur="0.39" score="1.0">price</Word>
+			<Word stime="7.62" dur="0.12" score="1.0">of</Word>
+			<Word stime="7.74" dur="0.09" score="1.0">a</Word>
+			<Word stime="7.83" dur="0.39" score="1.0">barrel</Word>
+		</SpeechSegment>
+	</SegmentList>
+</AudioDoc>

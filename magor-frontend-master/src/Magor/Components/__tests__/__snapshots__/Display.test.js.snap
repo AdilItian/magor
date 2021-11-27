@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlexContainer Snapshot tests 1`] = `
+<div
+  className="flex container customClassName"
+  id="FlexContainerId"
+  style={
+    Object {
+      "background": "red",
+    }
+  }
+>
+  This is my child
+</div>
+`;
+
+exports[`FlexContainerCentered Snapshot tests 1`] = `
+<div
+  className="flex container flexCenterChildren customClassName"
+  id="FlexContainerId"
+  style={
+    Object {
+      "background": "red",
+    }
+  }
+>
+  This is my child
+</div>
+`;
+
+exports[`FlexWrap Snapshot tests 1`] = `
+<div
+  className="flex customClassName"
+  id="FlexWrapId"
+  style={
+    Object {
+      "background": "red",
+      "flexWrap": "wrap",
+    }
+  }
+>
+  This is my child
+</div>
+`;
+
+exports[`HorizontalLayout Snapshot tests 1`] = `
+<div
+  className="flex customClassName"
+  id="HorizontalLayoutId"
+  style={
+    Object {
+      "background": "red",
+    }
+  }
+>
+  This is my child
+</div>
+`;
+
+exports[`VerticalLayout Snapshot tests 1`] = `
+<div
+  className="flexColumn customClassName"
+  id="VerticalLayoutId"
+  style={
+    Object {
+      "alignItems": "center",
+      "background": "red",
+    }
+  }
+>
+  This is my child
+</div>
+`;

@@ -1,0 +1,80 @@
+#RecordingsManager .flexColumn {
+    min-height: 100vh;
+    width: 70vw;
+    align-items: flex-start !important;
+    padding-top: 50px;
+}
+
+#RecordingsManagerUserDropdownContainer {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+#RecordingsManager .titleText {
+    margin-left: 0;
+}
+
+#RecordingsManager #recordingsList {
+    display: grid;
+    grid-gap: 20px;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#RecordingsManager #recordingsList .link {
+    color: #1faeff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#RecordingsManager #recordingsList .link:not(.active) {
+    color: #ccc;
+    pointer-events: none;
+}
+
+#RecordingsManager .recording.header {
+    color: #1faeff;
+    font-weight: bold;
+}
+
+#RecordingsManager .recording {
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr 0.5fr 0.5fr 0.5fr;
+    grid-gap: 10px;
+    gap: 10px;
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+
+#RecordingsManager .recording.willDelete {
+    opacity: 0;
+}
+
+#RecordingsManager .recording>label {
+    display: flex;
+    align-items: center;
+}
+
+#RecordingsManager .recordingDescriptor {
+    border-radius: 5px;
+    padding: 2px 4px;
+    margin: 0 3px;
+    text-align: center;
+}
+
+#RecordingsManager .recordingDescriptor.blue {
+    color: #1f96ff;
+}
+
+#RecordingsManager .recordingDescriptor.red {
+    color: #f20000;
+}
+
+#RecordingsManager .recordingDescriptor.violet {
+    color: #9300d6;
+}

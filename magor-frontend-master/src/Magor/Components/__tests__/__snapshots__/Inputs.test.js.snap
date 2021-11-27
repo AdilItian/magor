@@ -1,0 +1,1131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button tests 1`] = `
+<button
+  className="button  "
+/>
+`;
+
+exports[`DropDown tests 1`] = `
+<div
+  className="dropDown"
+  onMouseOut={[Function]}
+  onMouseOver={[Function]}
+  style={
+    Object {
+      "width": 220,
+    }
+  }
+>
+  <p>
+    item1
+  </p>
+  <ul>
+    <li
+      onClick={[Function]}
+    >
+      item2
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`DropDown tests 2`] = `
+<div
+  className="dropDown"
+  onMouseOut={[Function]}
+  onMouseOver={[Function]}
+  style={
+    Object {
+      "width": 220,
+    }
+  }
+>
+  <p>
+    item1
+  </p>
+  <ul>
+    <li
+      onClick={[Function]}
+    >
+      item1
+    </li>
+    <li
+      onClick={[Function]}
+    >
+      item2
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Icon Select tests 1`] = `
+<div
+  className="iconSelectContainer"
+>
+  <div
+    className="iconSelectIcon"
+    style={
+      Object {
+        "backgroundImage": "url(undefined)",
+      }
+    }
+  />
+  <label />
+  <ul
+    className="iconSelectList"
+  >
+    <li
+      onClick={[Function]}
+      tl="item1"
+    >
+      item1
+    </li>
+    <li
+      onClick={[Function]}
+      tl="item2"
+    >
+      item2
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Transcripts Input tests 1`] = `
+<div
+  className="labelledInputContainer"
+>
+  <label
+    className="labelledInputLabel active"
+  >
+    Transcripts
+  </label>
+  <div
+    className="labelledInput transcriptsInput"
+  >
+    <div
+      className="transcriptInput"
+    >
+      <button
+        className="remove"
+        onClick={[Function]}
+      >
+        x
+      </button>
+      <label>
+        Name
+      </label>
+      <label
+        className="ext"
+      >
+        ASRXML
+      </label>
+      <label
+        className="default"
+      >
+        Default
+      </label>
+    </div>
+    <div
+      className="transcriptInput addTranscript"
+      onClick={[Function]}
+    >
+      Add Transcript
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Transcripts Input tests 2`] = `
+<div
+  className="labelledInputContainer"
+>
+  <label
+    className="labelledInputLabel active"
+  >
+    Transcripts
+  </label>
+  <div
+    className="labelledInput transcriptsInput"
+  >
+    <div
+      className="transcriptInput"
+    >
+      <button
+        className="remove"
+        onClick={[Function]}
+      >
+        x
+      </button>
+      <label>
+        Name
+      </label>
+      <label
+        className="ext"
+      >
+        ASRXML
+      </label>
+      <label
+        className="default"
+      >
+        Default
+      </label>
+    </div>
+    <div
+      className="transcriptInput new"
+    >
+      <div>
+        <button
+          className="remove"
+          onClick={[Function]}
+        >
+          x
+        </button>
+        <div
+          className="labelledInputContainer small"
+        >
+          <label
+            className="labelledInputLabel active"
+          >
+            Name
+          </label>
+          <input
+            className="labelledInput"
+            onChange={[Function]}
+            placeholder="Name"
+            type="text"
+            value="V2"
+          />
+        </div>
+        <button
+          className="button makeDefault small"
+          onClick={[Function]}
+        >
+          Make Default
+        </button>
+      </div>
+      <div>
+        <div
+          className="fileInput small"
+        >
+          <button
+            className="small"
+            onClick={[Function]}
+          >
+            Choose Transcript
+          </button>
+          <p>
+            <label>
+              No File Selected
+            </label>
+          </p>
+          <br />
+          <input
+            onChange={[Function]}
+            type="file"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="transcriptInput addTranscript"
+      onClick={[Function]}
+    >
+      Add Transcript
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Transcripts Input tests 3`] = `
+<div
+  className="labelledInputContainer"
+>
+  <label
+    className="labelledInputLabel active"
+  >
+    Transcripts
+  </label>
+  <div
+    className="labelledInput transcriptsInput"
+  >
+    <div
+      className="transcriptInput"
+    >
+      <button
+        className="remove"
+        onClick={[Function]}
+      >
+        x
+      </button>
+      <label>
+        Name
+      </label>
+      <label
+        className="ext"
+      >
+        ASRXML
+      </label>
+      <label
+        className="default"
+      >
+        Default
+      </label>
+    </div>
+    <div
+      className="transcriptInput new"
+    >
+      <div>
+        <button
+          className="remove"
+          onClick={[Function]}
+        >
+          x
+        </button>
+        <div
+          className="labelledInputContainer small"
+        >
+          <label
+            className="labelledInputLabel active"
+          >
+            Name
+          </label>
+          <input
+            className="labelledInput"
+            onChange={[Function]}
+            placeholder="Name"
+            type="text"
+            value="New Name"
+          />
+        </div>
+        <button
+          className="button makeDefault small"
+          onClick={[Function]}
+        >
+          Make Default
+        </button>
+      </div>
+      <div>
+        <div
+          className="fileInput small"
+        >
+          <button
+            className="small"
+            onClick={[Function]}
+          >
+            Choose Transcript
+          </button>
+          <p>
+            <label>
+              No File Selected
+            </label>
+          </p>
+          <br />
+          <input
+            onChange={[Function]}
+            type="file"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="transcriptInput addTranscript"
+      onClick={[Function]}
+    >
+      Add Transcript
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Transcripts Input tests 4`] = `
+<div
+  className="labelledInputContainer"
+>
+  <label
+    className="labelledInputLabel active"
+  >
+    Transcripts
+  </label>
+  <div
+    className="labelledInput transcriptsInput"
+  >
+    <div
+      className="transcriptInput new"
+    >
+      <div>
+        <button
+          className="remove"
+          onClick={[Function]}
+        >
+          x
+        </button>
+        <div
+          className="labelledInputContainer small"
+        >
+          <label
+            className="labelledInputLabel active"
+          >
+            Name
+          </label>
+          <input
+            className="labelledInput"
+            onChange={[Function]}
+            placeholder="Name"
+            type="text"
+            value="New Name"
+          />
+        </div>
+        <label
+          className="default"
+        >
+          Default
+        </label>
+      </div>
+      <div>
+        <div
+          className="fileInput small"
+        >
+          <button
+            className="small"
+            onClick={[Function]}
+          >
+            Choose Transcript
+          </button>
+          <p>
+            <label>
+              No File Selected
+            </label>
+          </p>
+          <br />
+          <input
+            onChange={[Function]}
+            type="file"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="transcriptInput"
+    >
+      <button
+        className="remove"
+        onClick={[Function]}
+      >
+        x
+      </button>
+      <label>
+        Name
+      </label>
+      <label
+        className="ext"
+      >
+        ASRXML
+      </label>
+      <button
+        className="button  small"
+        onClick={[Function]}
+      >
+        Make Default
+      </button>
+    </div>
+    <div
+      className="transcriptInput addTranscript"
+      onClick={[Function]}
+    >
+      Add Transcript
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Transcripts Input tests 5`] = `
+<div
+  className="labelledInputContainer"
+>
+  <label
+    className="labelledInputLabel active"
+  >
+    Transcripts
+  </label>
+  <div
+    className="labelledInput transcriptsInput"
+  >
+    <div
+      className="transcriptInput new"
+    >
+      <div>
+        <button
+          className="remove"
+          onClick={[Function]}
+        >
+          x
+        </button>
+        <div
+          className="labelledInputContainer small"
+        >
+          <label
+            className="labelledInputLabel active"
+          >
+            Name
+          </label>
+          <input
+            className="labelledInput"
+            onChange={[Function]}
+            placeholder="Name"
+            type="text"
+            value="New Name"
+          />
+        </div>
+        <label
+          className="default"
+        >
+          Default
+        </label>
+      </div>
+      <div>
+        <div
+          className="fileInput small"
+        >
+          <button
+            className="small"
+            onClick={[Function]}
+          >
+            Choose Transcript
+          </button>
+          <p>
+            <label>
+              No File Selected
+            </label>
+          </p>
+          <br />
+          <input
+            onChange={[Function]}
+            type="file"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="transcriptInput addTranscript"
+      onClick={[Function]}
+    >
+      Add Transcript
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Transcripts Input tests with ASR 1`] = `
+<div
+  className="labelledInputContainer"
+>
+  <label
+    className="labelledInputLabel active"
+  >
+    Transcripts
+  </label>
+  <div
+    className="labelledInput transcriptsInput"
+  >
+    <div
+      className="transcriptInput"
+    >
+      <button
+        className="remove"
+        onClick={[Function]}
+      >
+        x
+      </button>
+      <label>
+        Name
+      </label>
+      <label
+        className="ext"
+      >
+        ASRXML
+      </label>
+      <label
+        className="default"
+      >
+        Default
+      </label>
+    </div>
+    <div
+      className="transcriptInput new"
+    >
+      <div>
+        <button
+          className="remove"
+          onClick={[Function]}
+        >
+          x
+        </button>
+        <div
+          className="labelledInputContainer small"
+        >
+          <label
+            className="labelledInputLabel active"
+          >
+            Name
+          </label>
+          <input
+            className="labelledInput"
+            onChange={[Function]}
+            placeholder="Name"
+            type="text"
+            value="v2"
+          />
+        </div>
+        <button
+          className="button makeDefault small"
+          onClick={[Function]}
+        >
+          Make Default
+        </button>
+      </div>
+      <div>
+        <div
+          className="fileInput small"
+        >
+          <button
+            className="small"
+            onClick={[Function]}
+          >
+            Choose Transcript
+          </button>
+          <p>
+            <label>
+              No File Selected
+            </label>
+          </p>
+          <br />
+          <input
+            onChange={[Function]}
+            type="file"
+          />
+        </div>
+        <h4>
+          Or
+        </h4>
+        <div
+          style={
+            Object {
+              "display": "flex",
+              "flexDirection": "column",
+            }
+          }
+        >
+          <button
+            className="button useASR small"
+            onClick={[Function]}
+            style={
+              Object {
+                "marginBottom": 5,
+              }
+            }
+          >
+            Auto generate transcript
+          </button>
+          <div
+            className="dropDown white"
+            onMouseOut={[Function]}
+            onMouseOver={[Function]}
+            style={
+              Object {
+                "width": 220,
+              }
+            }
+          >
+            <p>
+              English
+            </p>
+            <ul>
+              <li
+                onClick={[Function]}
+              >
+                Malay
+              </li>
+              <li
+                onClick={[Function]}
+              >
+                Mandarin
+              </li>
+              <li
+                onClick={[Function]}
+              >
+                Eng - Malay (Codeswitch)
+              </li>
+              <li
+                onClick={[Function]}
+              >
+                Eng - Mandarin (Codeswitch)
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="transcriptInput addTranscript"
+      onClick={[Function]}
+    >
+      Add Transcript
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Transcripts Input tests with ASR 2`] = `
+<div
+  className="labelledInputContainer"
+>
+  <label
+    className="labelledInputLabel active"
+  >
+    Transcripts
+  </label>
+  <div
+    className="labelledInput transcriptsInput"
+  >
+    <div
+      className="transcriptInput"
+    >
+      <button
+        className="remove"
+        onClick={[Function]}
+      >
+        x
+      </button>
+      <label>
+        Name
+      </label>
+      <label
+        className="ext"
+      >
+        ASRXML
+      </label>
+      <label
+        className="default"
+      >
+        Default
+      </label>
+    </div>
+    <div
+      className="transcriptInput new"
+    >
+      <div>
+        <button
+          className="remove"
+          onClick={[Function]}
+        >
+          x
+        </button>
+        <div
+          className="labelledInputContainer small"
+        >
+          <label
+            className="labelledInputLabel active"
+          >
+            Name
+          </label>
+          <input
+            className="labelledInput"
+            onChange={[Function]}
+            placeholder="Name"
+            type="text"
+            value="v2"
+          />
+        </div>
+        <button
+          className="button makeDefault small"
+          onClick={[Function]}
+        >
+          Make Default
+        </button>
+      </div>
+      <div>
+        <div
+          className="flex container flexCenterChildren "
+          style={
+            Object {
+              "flexDirection": "column",
+            }
+          }
+        >
+          <label
+            style={
+              Object {
+                "marginBottom": 5,
+              }
+            }
+          >
+            A transcript will be automatically generated in
+             
+          </label>
+          <div
+            className="dropDown white"
+            onMouseOut={[Function]}
+            onMouseOver={[Function]}
+            style={
+              Object {
+                "width": 220,
+              }
+            }
+          >
+            <p>
+              English
+            </p>
+            <ul>
+              <li
+                onClick={[Function]}
+              >
+                Malay
+              </li>
+              <li
+                onClick={[Function]}
+              >
+                Mandarin
+              </li>
+              <li
+                onClick={[Function]}
+              >
+                Eng - Malay (Codeswitch)
+              </li>
+              <li
+                onClick={[Function]}
+              >
+                Eng - Mandarin (Codeswitch)
+              </li>
+            </ul>
+          </div>
+          <button
+            className="button uploadOwnTranscript small"
+            onClick={[Function]}
+            style={
+              Object {
+                "marginTop": 10,
+              }
+            }
+          >
+            Or upload your own
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="transcriptInput addTranscript"
+      onClick={[Function]}
+    >
+      Add Transcript
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Transcripts Input tests with ASR 3`] = `
+<div
+  className="labelledInputContainer"
+>
+  <label
+    className="labelledInputLabel active"
+  >
+    Transcripts
+  </label>
+  <div
+    className="labelledInput transcriptsInput"
+  >
+    <div
+      className="transcriptInput"
+    >
+      <button
+        className="remove"
+        onClick={[Function]}
+      >
+        x
+      </button>
+      <label>
+        Name
+      </label>
+      <label
+        className="ext"
+      >
+        ASRXML
+      </label>
+      <label
+        className="default"
+      >
+        Default
+      </label>
+    </div>
+    <div
+      className="transcriptInput new"
+    >
+      <div>
+        <button
+          className="remove"
+          onClick={[Function]}
+        >
+          x
+        </button>
+        <div
+          className="labelledInputContainer small"
+        >
+          <label
+            className="labelledInputLabel active"
+          >
+            Name
+          </label>
+          <input
+            className="labelledInput"
+            onChange={[Function]}
+            placeholder="Name"
+            type="text"
+            value="v2"
+          />
+        </div>
+        <button
+          className="button makeDefault small"
+          onClick={[Function]}
+        >
+          Make Default
+        </button>
+      </div>
+      <div>
+        <div
+          className="flex container flexCenterChildren "
+          style={
+            Object {
+              "flexDirection": "column",
+            }
+          }
+        >
+          <label
+            style={
+              Object {
+                "marginBottom": 5,
+              }
+            }
+          >
+            A transcript will be automatically generated in
+             
+          </label>
+          <div
+            className="dropDown white"
+            onMouseOut={[Function]}
+            onMouseOver={[Function]}
+            style={
+              Object {
+                "width": 220,
+              }
+            }
+          >
+            <p>
+              Malay
+            </p>
+            <ul>
+              <li
+                onClick={[Function]}
+              >
+                English
+              </li>
+              <li
+                onClick={[Function]}
+              >
+                Mandarin
+              </li>
+              <li
+                onClick={[Function]}
+              >
+                Eng - Malay (Codeswitch)
+              </li>
+              <li
+                onClick={[Function]}
+              >
+                Eng - Mandarin (Codeswitch)
+              </li>
+            </ul>
+          </div>
+          <button
+            className="button uploadOwnTranscript small"
+            onClick={[Function]}
+            style={
+              Object {
+                "marginTop": 10,
+              }
+            }
+          >
+            Or upload your own
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="transcriptInput addTranscript"
+      onClick={[Function]}
+    >
+      Add Transcript
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Transcripts Input tests with ASR 4`] = `
+<div
+  className="labelledInputContainer"
+>
+  <label
+    className="labelledInputLabel active"
+  >
+    Transcripts
+  </label>
+  <div
+    className="labelledInput transcriptsInput"
+  >
+    <div
+      className="transcriptInput"
+    >
+      <button
+        className="remove"
+        onClick={[Function]}
+      >
+        x
+      </button>
+      <label>
+        Name
+      </label>
+      <label
+        className="ext"
+      >
+        ASRXML
+      </label>
+      <label
+        className="default"
+      >
+        Default
+      </label>
+    </div>
+    <div
+      className="transcriptInput new"
+    >
+      <div>
+        <button
+          className="remove"
+          onClick={[Function]}
+        >
+          x
+        </button>
+        <div
+          className="labelledInputContainer small"
+        >
+          <label
+            className="labelledInputLabel active"
+          >
+            Name
+          </label>
+          <input
+            className="labelledInput"
+            onChange={[Function]}
+            placeholder="Name"
+            type="text"
+            value="v2"
+          />
+        </div>
+        <button
+          className="button makeDefault small"
+          onClick={[Function]}
+        >
+          Make Default
+        </button>
+      </div>
+      <div>
+        <div
+          className="fileInput small"
+        >
+          <button
+            className="small"
+            onClick={[Function]}
+          >
+            Choose Transcript
+          </button>
+          <p>
+            <label>
+              No File Selected
+            </label>
+          </p>
+          <br />
+          <input
+            onChange={[Function]}
+            type="file"
+          />
+        </div>
+        <h4>
+          Or
+        </h4>
+        <div
+          style={
+            Object {
+              "display": "flex",
+              "flexDirection": "column",
+            }
+          }
+        >
+          <button
+            className="button useASR small"
+            onClick={[Function]}
+            style={
+              Object {
+                "marginBottom": 5,
+              }
+            }
+          >
+            Auto generate transcript
+          </button>
+          <div
+            className="dropDown white"
+            onMouseOut={[Function]}
+            onMouseOver={[Function]}
+            style={
+              Object {
+                "width": 220,
+              }
+            }
+          >
+            <p>
+              Malay
+            </p>
+            <ul>
+              <li
+                onClick={[Function]}
+              >
+                English
+              </li>
+              <li
+                onClick={[Function]}
+              >
+                Mandarin
+              </li>
+              <li
+                onClick={[Function]}
+              >
+                Eng - Malay (Codeswitch)
+              </li>
+              <li
+                onClick={[Function]}
+              >
+                Eng - Mandarin (Codeswitch)
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="transcriptInput addTranscript"
+      onClick={[Function]}
+    >
+      Add Transcript
+    </div>
+  </div>
+</div>
+`;

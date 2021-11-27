@@ -1,0 +1,38 @@
+/*
+ * Please ensure all custom stopwords are strings, and are in alphabetical order,
+ * with no duplicates. To be sure, run the following command:
+ * yarn test src/Magor/Utils/__tests__/customStopwords.test.js
+ * */
+export default [
+    'ah',
+    'ai',
+    'alright',
+    'ar',
+    'arh',
+    'can',
+    'eh',
+    'er',
+    'hah',
+    'hor',
+    'horh',
+    'huh',
+    'la',
+    'lah',
+    'leh',
+    'liao',
+    'loh',
+    'mah',
+    'meh',
+    'mm',
+    'mmm',
+    'oh',
+    'sia',
+    'siah',
+    'siao',
+    'siol',
+    'uh',
+    'uhhuh',
+    'um',
+    'ya',
+    'yeah',
+]

@@ -1,0 +1,43 @@
+#Edit{
+    padding-top: 100px;
+}
+#Edit .flexColumn {
+    min-height: 100vh;
+    /* width: 70vw; */
+    align-items: flex-start !important;
+    padding-top: 50px;
+}
+#EditUserDropdownContainer {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+#Edit .titleText {
+    margin-left: 0;
+}
+#Upload {
+    padding: 20px 0;
+    padding-top: calc(75px + 20px);
+    align-items: flex-start;
+}
+
+#EditLayout {
+    align-items: flex-start !important;
+}
+
+#EditLayout h1 {
+    margin-left: 0;
+}
+
+#EditLayout input,
+#EditLayout textarea {
+    width: 500px;
+}
+
+#EditLayout > * {
+    margin: 5px 0;
+}

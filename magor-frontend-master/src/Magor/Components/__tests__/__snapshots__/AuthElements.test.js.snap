@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Basic tests 1`] = `
+<div
+  className="dropDown"
+  onMouseOut={[Function]}
+  onMouseOver={[Function]}
+  style={
+    Object {
+      "width": 220,
+    }
+  }
+>
+  <p>
+    John Doe
+  </p>
+  <ul>
+    <li
+      onClick={[Function]}
+    >
+      Home
+    </li>
+    <li
+      onClick={[Function]}
+    >
+      Upload Panel
+    </li>
+    <li
+      onClick={[Function]}
+    >
+      My Uploads
+    </li>
+    <li
+      onClick={[Function]}
+    >
+      Admin Panel
+    </li>
+    <li
+      onClick={[Function]}
+    >
+      Log Out
+    </li>
+  </ul>
+</div>
+`;

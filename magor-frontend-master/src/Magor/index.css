@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    outline: none;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#Magor {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+#LoginBar {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+* {
+    font-family: 'Roboto';
+}
+
+#SearchName {
+    position: absolute;
+    bottom: 0;
+    right: 67px;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+#SearchName.small {
+    right: 47px;
+}
+
+#SearchName .dropDown {
+    width: 110px !important;
+    min-width: 0;
+}
+
+#SearchName::before {
+    content: 'Search By:';
+    font-weight: bold;
+    position: absolute;
+    background: #1faeff;
+    color: #fff;
+    width: 110px;
+    right: 0;
+    top: -28px;
+    height: 28px;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+#SearchName.small::before {
+    top: -20px;
+    height: 20px;
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+#Magor .searchBar {
+    min-width: 600px;
+}
+
+#SearchName.hidden {
+    opacity: 0;
+}
+
+#AddFilters {
+    align-self: flex-start;
+}
+
+#AddFilters .addFilterButton {
+    color: blue;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 0;
+    margin: 0 5px;
+    background: transparent;
+    border: 0px;
+    font-size: inherit;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+#AddFilters .addFilterButton:hover {
+    text-decoration: underline;
+}
+
+#Magor .labelledInputContainer {
+    align-self: flex-start;
+    margin-top: 10px;
+}
+
+
+
+#root {
+    overflow-x: hidden;
+}

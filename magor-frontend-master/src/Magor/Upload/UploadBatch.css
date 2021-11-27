@@ -1,0 +1,24 @@
+.file {
+    position: relative;
+}
+.file::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: -25px;
+    top: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.file.valid::before {
+    background-image: url(/valid.svg);
+}
+.file.error::before {
+    background-image: url(/error.svg);
+}
+.file label {
+    margin: 0 5px;
+}

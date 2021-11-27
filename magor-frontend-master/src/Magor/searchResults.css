@@ -1,0 +1,115 @@
+#SearchResults .flexColumn {
+    width: 75vw;
+}
+
+#SearchResults>.dropDown {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+#SearchResults .searchResult {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 10px;
+}
+
+#SearchResults .searchResultThumbnailMeta {
+    display: flex;
+}
+
+#SearchResults .searchResultThumbnail {
+    width: 25%;
+    max-width: 250px;
+    background-size: cover;
+    align-self: stretch;
+    background-position: center;
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#SearchResults .searchResultDuration {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #444;
+    color: #fff;
+    padding: 3px 8px;
+}
+
+#SearchResults .searchResultDetails {
+    padding-left: 20px;
+    flex: 1;
+}
+
+#SearchResults .searchResultDescriptor {
+    background: black;
+    border-radius: 5px;
+    padding: 2px 4px;
+    color: white;
+    margin: 0 3px;
+    font-weight: bold;
+}
+
+#SearchResults .searchResultDescriptor:first-child {
+    margin-left: 0;
+}
+
+#SearchResults .searchResultDescriptor.blue {
+    background: #1f96ff;
+}
+
+#SearchResults .searchResultDescriptor.red {
+    background: #f20000;
+}
+
+#SearchResults .searchResultDescriptor.violet {
+    background: #9300d6;
+}
+
+#SearchResults .recordingDescription {
+    font-size: 20px;
+}
+
+#SearchResults .nextPrevPage {
+    color: #bbb;
+}
+
+#SearchResults .nextPrevPage.active {
+    color: #1faeff;
+    cursor: pointer;
+}
+
+#SearchMeta .dropDown {
+    position: relative;
+    top: none;
+    right: none;
+}
+
+#SearchMeta>div {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+#SearchMeta select {
+    font-size: 16px;
+}
+
+#DropDownsContainer .dropDown {
+    z-index: 1;
+    display: inline-block;
+    top: 0;
+    right: 0;
+}
+
+#SearchResults .labelledInputContainer {
+    margin: 5px;
+}
+
+#SearchResults .additionalInputsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

@@ -1,0 +1,12 @@
+{
+	"role": "admin",
+	"loginAttempts": 0,
+	"name": "Admin",
+	"email": "admin@admin.com",
+	"password": "$2a$05$Rj5z7BpWOXiSj7EgCqkm0.GildjsIoBtYY8n86HgK49CIHmgHaahC",
+	"verification": "135ebc19-0530-45c6-a6f0-208e837d30ae",
+	"blockExpires": {"$date": "2020-02-10T06:41:33.045Z"},
+	"createdAt": {"$date": "2020-02-10T06:41:33.056Z"},
+	"updatedAt": {"$date": "2020-02-18T02:13:40.111Z"},
+	"userStatus": "notVerified"
+}

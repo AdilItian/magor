@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Default error works 1`] = `
+<p>
+  Error 404: This URL doesn't exist. Redirecting you to home...
+</p>
+`;
+
+exports[`make sure change in _key causes rerender 1`] = `
+<p>
+  Error 404: This URL doesn't exist. Redirecting you to home...
+</p>
+`;

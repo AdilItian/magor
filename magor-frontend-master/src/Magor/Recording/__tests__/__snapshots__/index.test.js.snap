@@ -1,0 +1,500 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Make sure a recording renders 1`] = `
+Array [
+  <div
+    className="recordingNavBar"
+  >
+    <h1
+      className="titleText small"
+      onClick={[Function]}
+    >
+      Magor
+    </h1>
+    <div
+      style={
+        Object {
+          "display": "flex",
+          "position": "relative",
+        }
+      }
+    >
+      <div
+        className="searchBarContainer"
+      >
+        <input
+          className="font searchBar small"
+          name="search"
+          onChange={[Function]}
+          onKeyUp={[Function]}
+          placeholder="Search"
+          type="text"
+        />
+      </div>
+      <div
+        id="DropDownContainer"
+      >
+        <div
+          className="dropDown"
+          onMouseOut={[Function]}
+          onMouseOver={[Function]}
+          style={
+            Object {
+              "width": 220,
+            }
+          }
+        >
+          <p>
+            This recording
+          </p>
+          <ul>
+            <li
+              onClick={[Function]}
+            >
+              All recordings
+            </li>
+          </ul>
+        </div>
+      </div>
+      <button
+        className="searchButton small"
+        onClick={[Function]}
+        style={
+          Object {
+            "borderLeft": "none",
+          }
+        }
+      />
+    </div>
+    <div
+      className="dropDown"
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "width": 220,
+        }
+      }
+    >
+      <p>
+        John Doe
+      </p>
+      <ul>
+        <li
+          onClick={[Function]}
+        >
+          Home
+        </li>
+        <li
+          onClick={[Function]}
+        >
+          Upload Panel
+        </li>
+        <li
+          onClick={[Function]}
+        >
+          My Uploads
+        </li>
+        <li
+          onClick={[Function]}
+        >
+          Admin Panel
+        </li>
+        <li
+          onClick={[Function]}
+        >
+          Log Out
+        </li>
+      </ul>
+    </div>
+  </div>,
+  <div
+    className="flex container flexCenterChildren "
+    id="Recording"
+    style={Object {}}
+  >
+    <div
+      className="flexColumn "
+      id="LeftPanel"
+      style={
+        Object {
+          "alignItems": "center",
+        }
+      }
+    >
+      <div
+        id="AVFileContainer"
+      >
+        <div
+          className="isLoading"
+          is-loading="no"
+          style={
+            Object {
+              "height": 0,
+              "left": 0,
+              "top": 0,
+              "width": 0,
+            }
+          }
+        />
+        <video
+          className="audio"
+          crossOrigin="true"
+          id="AVPlayerElement"
+          onLoadedData={[Function]}
+          onPause={[Function]}
+          onPlay={[Function]}
+          onPlaying={[Function]}
+          onSeeked={[Function]}
+          onTimeUpdate={[Function]}
+          onWaiting={[Function]}
+          src="$APIURL/static/recordings/m-1585626217546.wav"
+        />
+      </div>
+    </div>
+    <div
+      className="flexColumn recordingVerticalLayout audio"
+      id="RightPanel"
+      style={
+        Object {
+          "alignItems": "center",
+        }
+      }
+    >
+      <h1
+        className="titleText small"
+        style={
+          Object {
+            "marginLeft": 0,
+          }
+        }
+      >
+        Closetalk 2
+      </h1>
+      <p
+        className="font "
+        text="Chinese recording test"
+      >
+        Chinese recording test
+      </p>
+      <div
+        className="flex recordingTagsContainer"
+        style={
+          Object {
+            "flexWrap": "wrap",
+          }
+        }
+      >
+        Tags:
+        <span
+          className="font tag action"
+          onClick={[Function]}
+        >
+          tagName
+        </span>
+      </div>
+      <div
+        className="flex recordingTagsContainer"
+        style={
+          Object {
+            "flexWrap": "wrap",
+          }
+        }
+      >
+        Speakers:
+        <span
+          className="font tag action"
+          onClick={[Function]}
+        >
+          Chinmay
+        </span>
+      </div>
+      <div
+        className="ops selectTranscript"
+      >
+        <label>
+          Transcript:
+        </label>
+        <div
+          className="dropDown white"
+          onMouseOut={[Function]}
+          onMouseOver={[Function]}
+          style={
+            Object {
+              "width": 220,
+            }
+          }
+        >
+          <p>
+            V1
+          </p>
+          <ul />
+        </div>
+      </div>
+      <p>
+        <strong>
+          Error Occured:
+        </strong>
+      </p>
+      <br />
+      <p>
+        This transcript appears to be corrupted or to no longer exist.
+      </p>
+    </div>
+  </div>,
+]
+`;
+
+exports[`RecordingSearch tests 1`] = `
+Array [
+  <div
+    className="recordingNavBar"
+  >
+    <h1
+      className="titleText small"
+      onClick={[Function]}
+    >
+      Magor
+    </h1>
+    <div
+      style={
+        Object {
+          "display": "flex",
+          "position": "relative",
+        }
+      }
+    >
+      <div
+        className="searchBarContainer"
+      >
+        <input
+          className="font searchBar small"
+          name="search"
+          onChange={[Function]}
+          onKeyUp={[Function]}
+          placeholder="Search"
+          type="text"
+          value="chinese"
+        />
+      </div>
+      <div
+        id="DropDownContainer"
+      >
+        <div
+          className="dropDown"
+          onMouseOut={[Function]}
+          onMouseOver={[Function]}
+          style={
+            Object {
+              "width": 220,
+            }
+          }
+        >
+          <p>
+            This recording
+          </p>
+          <ul>
+            <li
+              onClick={[Function]}
+            >
+              All recordings
+            </li>
+          </ul>
+        </div>
+      </div>
+      <button
+        className="searchButton small"
+        onClick={[Function]}
+        style={
+          Object {
+            "borderLeft": "none",
+          }
+        }
+      />
+    </div>
+    <div
+      className="dropDown"
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "width": 220,
+        }
+      }
+    >
+      <p>
+        John Doe
+      </p>
+      <ul>
+        <li
+          onClick={[Function]}
+        >
+          Home
+        </li>
+        <li
+          onClick={[Function]}
+        >
+          Upload Panel
+        </li>
+        <li
+          onClick={[Function]}
+        >
+          My Uploads
+        </li>
+        <li
+          onClick={[Function]}
+        >
+          Admin Panel
+        </li>
+        <li
+          onClick={[Function]}
+        >
+          Log Out
+        </li>
+      </ul>
+    </div>
+  </div>,
+  <div
+    className="flex container flexCenterChildren "
+    id="Recording"
+    style={Object {}}
+  >
+    <div
+      className="flexColumn "
+      id="LeftPanel"
+      style={
+        Object {
+          "alignItems": "center",
+        }
+      }
+    >
+      <div
+        id="AVFileContainer"
+      >
+        <div
+          className="isLoading"
+          is-loading="no"
+          style={
+            Object {
+              "height": 0,
+              "left": 0,
+              "top": 0,
+              "width": 0,
+            }
+          }
+        />
+        <video
+          className="audio"
+          crossOrigin="true"
+          id="AVPlayerElement"
+          onLoadedData={[Function]}
+          onPause={[Function]}
+          onPlay={[Function]}
+          onPlaying={[Function]}
+          onSeeked={[Function]}
+          onTimeUpdate={[Function]}
+          onWaiting={[Function]}
+          src="$APIURL/static/recordings/m-1585626217546.wav"
+        />
+      </div>
+    </div>
+    <div
+      className="flexColumn recordingVerticalLayout audio"
+      id="RightPanel"
+      style={
+        Object {
+          "alignItems": "center",
+        }
+      }
+    >
+      <h1
+        className="titleText small"
+        style={
+          Object {
+            "marginLeft": 0,
+          }
+        }
+      >
+        Closetalk 
+        2 
+      </h1>
+      <p
+        className="font "
+        query="chinese"
+        text="Chinese recording test"
+      >
+        <span
+          className="highlighted"
+        >
+          Chinese
+        </span>
+        recording 
+        test 
+      </p>
+      <div
+        className="flex recordingTagsContainer"
+        style={
+          Object {
+            "flexWrap": "wrap",
+          }
+        }
+      >
+        Tags:
+        <span
+          className="font tag action"
+          onClick={[Function]}
+        >
+          tagName
+        </span>
+      </div>
+      <div
+        className="flex recordingTagsContainer"
+        style={
+          Object {
+            "flexWrap": "wrap",
+          }
+        }
+      >
+        Speakers:
+        <span
+          className="font tag action"
+          onClick={[Function]}
+        >
+          Chinmay
+        </span>
+      </div>
+      <div
+        className="ops selectTranscript"
+      >
+        <label>
+          Transcript:
+        </label>
+        <div
+          className="dropDown white"
+          onMouseOut={[Function]}
+          onMouseOver={[Function]}
+          style={
+            Object {
+              "width": 220,
+            }
+          }
+        >
+          <p>
+            V1
+          </p>
+          <ul />
+        </div>
+      </div>
+      <p>
+        <strong>
+          Error Occured:
+        </strong>
+      </p>
+      <br />
+      <p>
+        This transcript appears to be corrupted or to no longer exist.
+      </p>
+    </div>
+  </div>,
+]
+`;

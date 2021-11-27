@@ -1,0 +1,56 @@
+.transcript-editor {
+    margin-top: 1rem;
+    overflow-y: auto;
+    padding-top: 1rem;
+    max-height: 35rem;
+    border-top: 2px solid #2EAEFF;
+    padding-right: 1rem;
+}
+
+  .transcript-editor::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  .transcript-editor::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  .transcript-editor::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .transcript-editor::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+.speechSegment {
+    display: grid;
+    grid-template-columns: 5rem 1fr;
+    gap: 1rem;
+}
+
+.speechSegment label {
+    min-width: 5rem;
+    font-weight: bold;
+    border: 1px solid lightgrey;
+    border-radius: 0.125rem;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.speechSegment input {
+    resize: horizontal;
+    width: 50px;
+}
+
+.speechSegment p {
+    display: inline-flex;
+    flex-wrap: wrap;
+    border: 1px solid lightgrey;
+    border-radius: 0.125rem;
+    padding: 0.5rem;
+}

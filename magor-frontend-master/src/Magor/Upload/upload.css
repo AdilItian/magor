@@ -1,0 +1,101 @@
+.uploadNavBar {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #1faeff;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 75px;
+    z-index: 1;
+}
+
+.uploadNavBar .titleText.small {
+    color: #fff;
+}
+
+#Upload {
+    padding: 20px 0;
+    padding-top: calc(75px + 20px);
+    align-items: flex-start;
+}
+
+#UploadLayout {
+    align-items: flex-start !important;
+}
+
+#UploadLayout h1 {
+    margin-left: 0;
+}
+
+#UploadLayout input,
+#UploadLayout textarea {
+    width: 500px;
+}
+
+#UploadLayout .ASRInput {
+    display: flex;
+    margin-left: 40px;
+}
+
+#UploadLayout .ASRInput>* {
+    margin: 0 5px;
+}
+
+#UploadLayout .labelledInputContainer,
+#UploadLayout .fileInput {
+    margin-left: 20px;
+}
+
+.StudioDetails .labelledInputContainer {
+    width: 100%;
+}
+
+#UploadLayout .dropDown {
+    margin-left: 5px;
+}
+
+#UploadLayout>* {
+    margin: 5px 0;
+}
+
+@keyframes loader {
+    0% {
+        clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
+    }
+
+    75% {
+        clip-path: polygon(0 100%, 100% 100%, 100% 0%, 0 0%);
+        opacity: 1;
+    }
+
+    100% {
+        clip-path: polygon(0 100%, 100% 100%, 100% 0%, 0 0%);
+        opacity: 0;
+    }
+}
+
+.status {
+    display: flex;
+    align-items: center;
+}
+
+.status img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.status img.upload {
+    animation: loader 2s infinite forwards;
+}
+
+.transcriptInputContainer {
+    display: flex;
+    align-items: center;
+}
+
+.transcriptInputContainer label {
+    margin-right: 5px;
+}

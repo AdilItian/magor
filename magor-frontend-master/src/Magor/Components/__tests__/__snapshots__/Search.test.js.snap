@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Basic SearchBar tests 1`] = `
+<div
+  className="searchBarContainer"
+>
+  <input
+    className="font searchBar "
+    name="search"
+    onChange={[Function]}
+    onKeyUp={[Function]}
+    placeholder="Enter search query here"
+    type="text"
+  />
+</div>
+`;
+
+exports[`Basic SearchBar tests 2`] = `
+<div
+  className="searchBarContainer"
+>
+  <input
+    className="font searchBar small"
+    name="search"
+    onChange={[Function]}
+    onKeyUp={[Function]}
+    placeholder="Enter search query here"
+    type="text"
+  />
+</div>
+`;
+
+exports[`Basic SearchBar tests 3`] = `
+<div
+  className="searchBarContainer"
+>
+  <input
+    className="font searchBar "
+    name="search"
+    onChange={[Function]}
+    onKeyUp={[Function]}
+    placeholder="Enter search query here"
+    type="text"
+  />
+  <ul>
+    <li
+      onClick={[Function]}
+    >
+      match1
+    </li>
+    <li
+      onClick={[Function]}
+    >
+      match2
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Named search Bar 1`] = `
+Array [
+  <div
+    className="searchBarContainer"
+  >
+    <input
+      className="font searchBar "
+      name="search"
+      onChange={[Function]}
+      onKeyUp={[Function]}
+      placeholder="Enter search query here"
+      type="text"
+      value="test"
+    />
+  </div>,
+  <div
+    className=""
+    id="SearchName"
+  >
+    <div
+      className="dropDown"
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "width": 220,
+        }
+      }
+    >
+      <p>
+        a
+      </p>
+      <ul>
+        <li
+          onClick={[Function]}
+        >
+          b
+        </li>
+        <li
+          onClick={[Function]}
+        >
+          c
+        </li>
+      </ul>
+    </div>
+  </div>,
+]
+`;
+
+exports[`SearchButton basic tests 1`] = `
+<button
+  className="searchButton "
+  onClick={[Function]}
+/>
+`;
+
+exports[`SearchButton basic tests 2`] = `
+<button
+  className="searchButton small"
+  onClick={[Function]}
+/>
+`;
+
+exports[`SearchButton calls callback on click 1`] = `
+<button
+  className="searchButton "
+  onClick={[MockFunction]}
+/>
+`;

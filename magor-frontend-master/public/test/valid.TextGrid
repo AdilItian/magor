@@ -1,0 +1,266 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 535.87
+tiers? <exists>
+size = 1
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "S1"
+        xmin = 0
+        xmax = 535.87
+        intervals: size = 63
+        intervals [1]:
+            xmin = 0
+            xmax = 0.06
+            text = "--EMPTY--"
+        intervals [2]:
+            xmin = 0.06
+            xmax = 6.21
+            text = ""
+        intervals [3]:
+            xmin = 6.21
+            xmax = 24.30
+            text = "my fellow singaporeans this year we are commemorating our bicentennial our school community groups religious institutions clan associations and even businesses have all organised events to tell their own histories"
+        intervals [4]:
+            xmin = 24.30
+            xmax = 36.67
+            text = "many of us have been moved by the bicentennial the experience at fort canning it vividly depict singapore's rich and eventful history down the centuries"
+        intervals [5]:
+            xmin = 36.67
+            xmax = 45.12
+            text = "these activities remind us that our history stretches back well before nineteen sixty five when we became independent"
+        intervals [6]:
+            xmin = 45.12
+            xmax = 60.62
+            text = "and even before eighteen nineteen when the british paradise singapore has drawn from many cultures and traditions and our journey towards nationhood we have gone through many ups and downs"
+        intervals [7]:
+            xmin = 60.62
+            xmax = 65.24
+            text = "this year our economy has slowed down"
+        intervals [8]:
+            xmin = 65.24
+            xmax = 83.79
+            text = "global demand and international trade have weakened this has affected our manufacturing sector and trade related services in particular we are feeling the worldwide cyclical downturn for electronics which performed strongly last year"
+        intervals [9]:
+            xmin = 83.79
+            xmax = 95.12
+            text = "but other parts of our economy are still doing well we have experienced such slowdowns before and we will take this one in our stride"
+        intervals [10]:
+            xmin = 95.12
+            xmax = 100.94
+            text = "should it become necessary to stimulate the economy we will do so"
+        intervals [11]:
+            xmin = 100.94
+            xmax = 115.64
+            text = "more fundamentally the world is entering a more troubled period we face grave challenges one economic uncertainties with trade and globalisation under pressure"
+        intervals [12]:
+            xmin = 115.64
+            xmax = 129.05
+            text = "to to reject risks with growing friction between the major powers and the existential threats with global warming and rising sea levels"
+        intervals [13]:
+            xmin = 129.05
+            xmax = 147.49
+            text = "singapore will not be immune to the global problem on the economic front it would disrupt supply chains altered trade patterns and shift investment flows we must get ourselves ready for a very different future"
+        intervals [14]:
+            xmin = 147.49
+            xmax = 159.81
+            text = "but our path gives us confidence throughout our history when trials and tribulations have beset us we've picked ourselves up and work together to overcome them"
+        intervals [15]:
+            xmin = 159.81
+            xmax = 171.47
+            text = "each time the world change we were able to survive each time we reinvented and renewed our economy our people and our city"
+        intervals [16]:
+            xmin = 171.47
+            xmax = 173.54
+            text = "and we've tried bigger"
+        intervals [17]:
+            xmin = 173.54
+            xmax = 178.13
+            text = "and this is what we must keep on doing for the"
+        intervals [18]:
+            xmin = 178.13
+            xmax = 192.07
+            text = "economy we are making good progress transforming our industry with everything advanced jet turbines researching new cures for diseases and pushing boundaries in fintech services"
+        intervals [19]:
+            xmin = 192.07
+            xmax = 198.66
+            text = "our sea port and airport are expanding to meet the growing demand of a dynamic asia"
+        intervals [20]:
+            xmin = 198.66
+            xmax = 217.01
+            text = "the two integrated resort kali are are being enhanced to attract more tourists i'll pick and stop up themes up flourishing agencies like enterprise singapore are hoping entrepreneurs and companies to strengthen scale up and next"
+        intervals [21]:
+            xmin = 217.01
+            xmax = 217.06
+            text = "--EMPTY--"
+        intervals [22]:
+            xmin = 217.06
+            xmax = 227.62
+            text = "and into the international market we are also making good progress rescaling and upgrading our workforce to be future ready"
+        intervals [23]:
+            xmin = 227.62
+            xmax = 240.95
+            text = "skillsfuture is building up the skills of tens of thousands of singaporeans helping them be more productive and employable and preparing them for the new jobs being created"
+        intervals [24]:
+            xmin = 240.95
+            xmax = 251.85
+            text = "all these structural measure will not only address our longer term challenges but also how the us through a more immediate downturn"
+        intervals [25]:
+            xmin = 251.85
+            xmax = 271.68
+            text = "by continuing to invest heavily in our people we enable each one of us to take advantage of new opportunities at every stage of life this is a joint endeavor the government will keep on helping every citizen to achieve your potential and contribute your best to singapore"
+        intervals [26]:
+            xmin = 271.68
+            xmax = 287.63
+            text = "each one of us must strive to improve ourselves do our best and chase our dream and i know how to start making the effort to bring up children well with the right character and values"
+        intervals [27]:
+            xmin = 287.63
+            xmax = 296.74
+            text = "we intend to make preschool and tertiary education even more affordable especially for lower and middle income families"
+        intervals [28]:
+            xmin = 296.74
+            xmax = 309.79
+            text = "to help older singaporeans we have protected them well the healthcare and retirement means for those who wish to work longer we will be raising the retirement and re employment ages"
+        intervals [29]:
+            xmin = 309.79
+            xmax = 314.49
+            text = "of a more about these matters at the national day rally"
+        intervals [30]:
+            xmin = 314.49
+            xmax = 330.14
+            text = "finally we must continue to the new york city recently a foreign leader visiting us for the first time told me that his airplane flew over the island he knew at once that he was over singapore"
+        intervals [31]:
+            xmin = 330.14
+            xmax = 345.93
+            text = "because looking out of the window he could see that every corner of the island had been meticulously thought through and lovingly attended every housing precinct every landmark every part so poor and greenery"
+        intervals [32]:
+            xmin = 345.93
+            xmax = 350.35
+            text = "the island was a sparkling diamond with brilliant facets"
+        intervals [33]:
+            xmin = 350.35
+            xmax = 350.45
+            text = "--EMPTY--"
+        intervals [34]:
+            xmin = 350.45
+            xmax = 357.02
+            text = "catching the eye just like a jewel at changi airport where i am today"
+        intervals [35]:
+            xmin = 357.02
+            xmax = 370.51
+            text = "many of you have already visited jewel to explore its lush gardens soak in the sight of the spectacular waterfall and enjoy the unique ambience under the glass dome"
+        intervals [36]:
+            xmin = 370.51
+            xmax = 384.30
+            text = "some of you may also work in the many new jobs created here the changi team conceive the concept of duo nine years ago when changi airport was facing intense competition"
+        intervals [37]:
+            xmin = 384.30
+            xmax = 393.19
+            text = "since its opening jewel has captured the imagination of both singaporeans and visitors and rightly so"
+        intervals [38]:
+            xmin = 393.19
+            xmax = 397.37
+            text = "we are very proud of our new gateway to the world"
+        intervals [39]:
+            xmin = 397.37
+            xmax = 397.67
+            text = "--EMPTY--"
+        intervals [40]:
+            xmin = 397.67
+            xmax = 413.70
+            text = "it reminds us what makes this country special it shows that singaporeans not only have the creativity and daring to reinvent ourselves but also the passion and competence to turn dream into reality"
+        intervals [41]:
+            xmin = 413.70
+            xmax = 429.84
+            text = "as you might expect other cities and airport are already planning to emulate dual and perhaps even do it bigger and better but we dare to attempt the new and we did it for us"
+        intervals [42]:
+            xmin = 429.84
+            xmax = 439.22
+            text = "joe is just one of many things we are doing to remake outfit the changi terminal five tuas mega port"
+        intervals [43]:
+            xmin = 439.22
+            xmax = 439.59
+            text = "--EMPTY--"
+        intervals [44]:
+            xmin = 439.59
+            xmax = 441.25
+            text = "the jurong lake district"
+        intervals [45]:
+            xmin = 441.25
+            xmax = 441.42
+            text = "--EMPTY--"
+        intervals [46]:
+            xmin = 441.42
+            xmax = 444.05
+            text = "thirty development of paya lebar air base"
+        intervals [47]:
+            xmin = 444.05
+            xmax = 444.08
+            text = "--EMPTY--"
+        intervals [48]:
+            xmin = 444.08
+            xmax = 446.32
+            text = "and the greater southern waterfront"
+        intervals [49]:
+            xmin = 446.32
+            xmax = 446.59
+            text = "--EMPTY--"
+        intervals [50]:
+            xmin = 446.59
+            xmax = 456.49
+            text = "all these projects will keep us busy and create new opportunities for singaporeans for decades to come to stay in front of the park"
+        intervals [51]:
+            xmin = 456.49
+            xmax = 456.83
+            text = "--EMPTY--"
+        intervals [52]:
+            xmin = 456.83
+            xmax = 462.48
+            text = "we must constantly come up with fresh ideas always be ready to break new ground"
+        intervals [53]:
+            xmin = 462.48
+            xmax = 463.11
+            text = "--EMPTY--"
+        intervals [54]:
+            xmin = 463.11
+            xmax = 472.92
+            text = "what limits our possibilities is not the physical size of islam but the ingenuity of our people and the boldness of of good it"
+        intervals [55]:
+            xmin = 472.92
+            xmax = 491.29
+            text = "our island authority have many more bright chapters to unfold let us today's singaporeans be as intrepid as our ancestors who came from distant lands and made this their home and bf"
+        intervals [56]:
+            xmin = 491.29
+            xmax = 491.37
+            text = "--EMPTY--"
+        intervals [57]:
+            xmin = 491.37
+            xmax = 498.77
+            text = "as our parents and grandparents who endured war and occupation and rebuild their lives"
+        intervals [58]:
+            xmin = 498.77
+            xmax = 499.87
+            text = "--EMPTY--"
+        intervals [59]:
+            xmin = 499.87
+            xmax = 503.27
+            text = "let us be as resolute as the pioneer generation"
+        intervals [60]:
+            xmin = 503.27
+            xmax = 503.61
+            text = "--EMPTY--"
+        intervals [61]:
+            xmin = 503.61
+            xmax = 516.49
+            text = "who fought for independence and founded our nation and be as united as them or dick our generation who took up the baton and brought singapore from third world to first"
+        intervals [62]:
+            xmin = 516.49
+            xmax = 532.96
+            text = "let us continue to work together as one united people to thrive in an uncertain world challenge ourselves to explore new horizons and commit our hearts and so the singapore and its future"
+        intervals [63]:
+            xmin = 532.96
+            xmax = 535.87
+            text = "happy national day"

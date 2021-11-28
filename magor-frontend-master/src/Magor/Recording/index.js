@@ -57,7 +57,7 @@ const Recording = ({ data, query: _query, id, transcriptId }) => {
     const [query, setQuery] = useState(_query)
     const [highlights, setHighlights] = useState([])
     const [currentPage, setCurrentPage] = useState(
-        transcriptId ? EDIT_PAGES.EDIT_TRANSCRIPT : 'Edit Transcript'
+        transcriptId ? EDIT_PAGES.EDIT_TRANSCRIPT : 'Edit'
     )
     const [currentCaption, setCurrentCaption] = useState(null)
     const [imageAndSoundCaptions, setImageAndSoundCaptions] = useState([])

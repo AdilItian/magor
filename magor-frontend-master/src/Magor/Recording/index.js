@@ -57,7 +57,7 @@ const Recording = ({ data, query: _query, id, transcriptId }) => {
     const [query, setQuery] = useState(_query)
     const [highlights, setHighlights] = useState([])
     const [currentPage, setCurrentPage] = useState(
-        transcriptId ? EDIT_PAGES.EDIT_TRANSCRIPT : 'Edit'
+        transcriptId ? EDIT_PAGES.EDIT_TRANSCRIPT : 'Edit Transcript'
     )
     const [currentCaption, setCurrentCaption] = useState(null)
     const [imageAndSoundCaptions, setImageAndSoundCaptions] = useState([])
@@ -276,6 +276,7 @@ const Recording = ({ data, query: _query, id, transcriptId }) => {
                 {currentPage === EDIT_PAGES.EDIT_TRANSCRIPT &&
                     transcriptData && (
                         <Timeline
+                            mediaUrl={mediaUrl}
                             jump={jump}
                             jumpTo={jumpTo}
                             duration={recording.duration}

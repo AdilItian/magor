@@ -63,6 +63,15 @@
     cursor: pointer;
 }
 
+.audio-spectrum {
+    display: flex;
+    position: absolute;
+    bottom: 2rem;
+    left: 20rem;
+    height: 200px;
+    background-color: darkgray;
+}
+
 .timeline-container:before {
     content: '';
     position: absolute;
@@ -141,4 +150,19 @@
     position: absolute;
     left: 3rem;
     bottom: 1rem;
+}
+
+.timeline-timebox {
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+}
+
+.timeline-button {
+    color: darkslategrey;
+    font-weight: bold;
+    cursor: pointer;
+}
+.timeline-button.disabled {
+    color: darkgray;
 }

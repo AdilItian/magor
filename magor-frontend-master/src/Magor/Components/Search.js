@@ -20,7 +20,7 @@ export const SearchBar = (props) => {
                 placeholder={props.placeholder || 'Enter search query here'}
                 onKeyUp={handleKeyUp}
                 onChange={(e) => props.handleChange(e.target.value)}
-                value={props.value}
+                value={props.value || ''}
                 className={`font searchBar ${props.small ? 'small' : ''}`}
                 style={props.style}
             />

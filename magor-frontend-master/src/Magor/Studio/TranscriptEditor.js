@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import axios from 'axios'
 import xml2js from 'xml2js'
 import toast, { Toaster } from 'react-hot-toast'
@@ -7,6 +7,22 @@ import './TranscriptEditor.css'
 import { useHistory, Link, useParams } from 'react-router-dom'
 import { DropDown, HorizontalLayout } from '../Components'
 import { saveAs } from 'file-saver'
+
+const Word = ({ onInput, word }) => {
+    const defaultValue = useRef(word)
+
+    const handleInput = (e) => {
+        onInput(e.target.innerHTML)
+    }
+
+    return (
+        <span
+            onInput={handleInput}
+            contentEditable
+            dangerouslySetInnerHTML={{ __html: defaultValue.current }}
+        />
+    )
+}
 
 const TranscriptButton = ({ id }) => {
     const history = useHistory()
@@ -35,19 +51,11 @@ const TranscriptEditor = ({
     transcriptData,
     jumpTo,
     fileName,
-    setTranscriptData,
+    handleWordChange,
+    state,
+    setState,
 }) => {
     const { id } = useParams()
-
-    const handleWordChange = (slIndex, ssIndex, wIndex, text) => {
-        setTranscriptData((prevState) => {
-            const currentAudioDoc = { ...prevState.AudioDoc }
-            currentAudioDoc.SegmentList[slIndex].SpeechSegment[ssIndex].Word[
-                wIndex
-            ]._ = text
-            return { AudioDoc: currentAudioDoc }
-        })
-    }
 
     const handleDownload = () => {
         saveAs(
@@ -111,23 +119,18 @@ const TranscriptEditor = ({
                                 </label>
                                 <p>
                                     {ss.Word.map((w, wIndex) => (
-                                        <span
-                                            onInput={(e) =>
+                                        <Word
+                                            key={`${w._}-${wIndex}`}
+                                            word={w._}
+                                            onInput={(value) =>
                                                 handleWordChange(
                                                     slIndex,
                                                     ssIndex,
                                                     wIndex,
-                                                    e.target.innerHTML
+                                                    value
                                                 )
                                             }
-                                            suppressContentEditableWarning={
-                                                true
-                                            }
-                                            contentEditable={true}
-                                            key={wIndex}
-                                        >
-                                            {w._}
-                                        </span>
+                                        />
                                     ))}
                                 </p>
                             </div>

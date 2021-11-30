@@ -29,6 +29,7 @@ export const ALL_REC = 'All recordings'
 
 const Recording = ({ data, query: _query, id, transcriptId }) => {
     const recording = data.data
+    const [state, setState] = useState(null)
 
     const EDIT_PAGES = {
         EDIT_VIDEO: 'Edit Video',
@@ -67,6 +68,16 @@ const Recording = ({ data, query: _query, id, transcriptId }) => {
     const [transcriptData, setTranscriptData] = useState(null)
     const [fileName, setFileName] = useState(null)
 
+    console.log('transcript', transcriptData)
+
+    const handleWordChange = (slIndex, ssIndex, wIndex, text) => {
+        const prev = transcriptData
+        prev.AudioDoc.SegmentList[slIndex].SpeechSegment[ssIndex].Word[
+            wIndex
+        ]._ = text
+        setTranscriptData(prev)
+    }
+
     useEffect(() => {
         if (defaultTranscript) {
             ;(async () => {
@@ -81,6 +92,9 @@ const Recording = ({ data, query: _query, id, transcriptId }) => {
                     setTranscriptData(result)
                 })
             })()
+            setTimeout(() => {
+                setState('erer')
+            }, 1000)
         }
     }, [defaultTranscript])
 
@@ -188,13 +202,16 @@ const Recording = ({ data, query: _query, id, transcriptId }) => {
                     {recording.description.length > 0 && (
                         <Para query={query} text={recording.description} />
                     )}
-                    {currentPage === EDIT_PAGES.EDIT_TRANSCRIPT ? (
+                    {currentPage === EDIT_PAGES.EDIT_TRANSCRIPT && state ? (
                         <div className="mt-5 w-100">
                             <TranscriptEditor
+                                state={state}
+                                setState={setState}
                                 fileName={fileName}
                                 jumpTo={jumpTo}
                                 transcriptData={transcriptData}
                                 setTranscriptData={setTranscriptData}
+                                handleWordChange={handleWordChange}
                             />
                         </div>
                     ) : (
